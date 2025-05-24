@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAAF8C40-BD8D-43A8-85CB-2FCAE71C4C43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>E_Monopoly.My.MyApplication</StartupObject>
+    <RootNamespace>E_Monopoly</RootNamespace>
+    <AssemblyName>E-Monopoly</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>E-Monopoly.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>E-Monopoly.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>games_boardgames_artboard_3_512_o43_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP2.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP1.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP3.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP4.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP5.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP6.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP7.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP8.Designer.vb">
+      <DependentUpon>frmPropertySelectorAddingP8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP1.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP2.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP3.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP4.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP5.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP6.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP7.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP8.Designer.vb">
+      <DependentUpon>frmPropertySelectorSubstractingP8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmExtendedScreenPInfo.Designer.vb">
+      <DependentUpon>frmExtendedScreenPInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmExtendedScreenPInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmGameModeSelector.Designer.vb">
+      <DependentUpon>frmGameModeSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmGameModeSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmAboutUs.Designer.vb">
+      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmAboutUs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmHelp.Designer.vb">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerInfo.Designer.vb">
+      <DependentUpon>frmPlayerInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmUnbiarcedDice.Designer.vb">
+      <DependentUpon>frmUnbiarcedDice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmUnbiarcedDice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraph.Designer.vb">
+      <DependentUpon>frmMoneyPropertyGraph.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraph.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraphDetails.Designer.vb">
+      <DependentUpon>frmMoneyPropertyGraphDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraphDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmScaling.Designer.vb">
+      <DependentUpon>frmScaling.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmScaling.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertyDatabase.Designer.vb">
+      <DependentUpon>frmPropertyDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertyDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIcon.Designer.vb">
+      <DependentUpon>frmPlayerIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIcon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIconSelector.Designer.vb">
+      <DependentUpon>frmPlayerIconSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIconSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\property left display\frmBackground.Designer.vb">
+      <DependentUpon>frmBackground.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\property left display\frmBackground.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\property left display\propertycardview.Designer.vb">
+      <DependentUpon>propertycardview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\property left display\propertycardview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmRules.Designer.vb">
+      <DependentUpon>frmRules.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmRules.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmFunction.Designer.vb">
+      <DependentUpon>frmFunction.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmFunction.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player1Icon.Designer.vb">
+      <DependentUpon>Player1Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player1Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player2Icon.Designer.vb">
+      <DependentUpon>Player2Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player2Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player3Icon.Designer.vb">
+      <DependentUpon>Player3Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player3Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player4Icon.Designer.vb">
+      <DependentUpon>Player4Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player4Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player5Icon.Designer.vb">
+      <DependentUpon>Player5Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player5Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player6Icon.Designer.vb">
+      <DependentUpon>Player6Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player6Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player7Icon.Designer.vb">
+      <DependentUpon>Player7Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player7Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player8Icon.Designer.vb">
+      <DependentUpon>Player8Icon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player8Icon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerHistory.Designer.vb">
+      <DependentUpon>frmPlayerHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertytreeview.Designer.vb">
+      <DependentUpon>frmPropertytreeview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertytreeview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmWelcome.Designer.vb">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main\Subordinate Forms\frmWelcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PropertyInfoDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PropertyInfoDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\_E_Monopoly__properties_DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_E_Monopoly__properties_DataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP2.resx">
+      <DependentUpon>frmPropertySelectorAddingP2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP1.resx">
+      <DependentUpon>frmPropertySelectorAddingP1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP3.resx">
+      <DependentUpon>frmPropertySelectorAddingP3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP4.resx">
+      <DependentUpon>frmPropertySelectorAddingP4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP5.resx">
+      <DependentUpon>frmPropertySelectorAddingP5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP6.resx">
+      <DependentUpon>frmPropertySelectorAddingP6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP7.resx">
+      <DependentUpon>frmPropertySelectorAddingP7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Adding\frmPropertySelectorAddingP8.resx">
+      <DependentUpon>frmPropertySelectorAddingP8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP1.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP2.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP3.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP4.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP5.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP6.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP7.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Property Selector\Substracting\frmPropertySelectorSubstractingP8.resx">
+      <DependentUpon>frmPropertySelectorSubstractingP8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\frmExtendedScreenPInfo.resx">
+      <DependentUpon>frmExtendedScreenPInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\frmGameModeSelector.resx">
+      <DependentUpon>frmGameModeSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmAboutUs.resx">
+      <DependentUpon>frmAboutUs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmFunction.resx">
+      <DependentUpon>frmFunction.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerInfo.resx">
+      <DependentUpon>frmPlayerInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmUnbiarcedDice.resx">
+      <DependentUpon>frmUnbiarcedDice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraph.resx">
+      <DependentUpon>frmMoneyPropertyGraph.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\Graph Forms\frmMoneyPropertyGraphDetails.resx">
+      <DependentUpon>frmMoneyPropertyGraphDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmRules.resx">
+      <DependentUpon>frmRules.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmScaling.resx">
+      <DependentUpon>frmScaling.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmSettings.resx">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertyDatabase.resx">
+      <DependentUpon>frmPropertyDatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIcon.resx">
+      <DependentUpon>frmPlayerIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\frmPlayerIconSelector.resx">
+      <DependentUpon>frmPlayerIconSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\property left display\frmBackground.resx">
+      <DependentUpon>frmBackground.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\property left display\propertycardview.resx">
+      <DependentUpon>propertycardview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player1Icon.resx">
+      <DependentUpon>Player1Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player2Icon.resx">
+      <DependentUpon>Player2Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player3Icon.resx">
+      <DependentUpon>Player3Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player4Icon.resx">
+      <DependentUpon>Player4Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player5Icon.resx">
+      <DependentUpon>Player5Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player6Icon.resx">
+      <DependentUpon>Player6Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player7Icon.resx">
+      <DependentUpon>Player7Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Player Icon selector\Player Icon\Player8Icon.resx">
+      <DependentUpon>Player8Icon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\frmPlayerHistory.resx">
+      <DependentUpon>frmPlayerHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\Help Forms\Property Info\frmPropertytreeview.resx">
+      <DependentUpon>frmPropertytreeview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main\Subordinate Forms\frmWelcome.resx">
+      <DependentUpon>frmWelcome.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PropertyInfoDataSet.xsc">
+      <DependentUpon>PropertyInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PropertyInfoDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PropertyInfoDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PropertyInfoDataSet.xss">
+      <DependentUpon>PropertyInfoDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\DeluxeMonopoly.pdf" />
+    <None Include="Resources\_E_Monopoly__properties_DataSet.xsc">
+      <DependentUpon>_E_Monopoly__properties_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\_E_Monopoly__properties_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>_E_Monopoly__properties_DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\_E_Monopoly__properties_DataSet.xss">
+      <DependentUpon>_E_Monopoly__properties_DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minus-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="games_boardgames_artboard_3_512_o43_icon.ico" />
+    <Content Include="PropertyInfo.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\icons8-cash-100-overlay %282%29.png" />
+    <None Include="Resources\icons8-cash-100-overlay %281%29.png" />
+    <None Include="Resources\icons8-payment-history-100.png" />
+    <None Include="Resources\icons8-add-new-100.png" />
+    <None Include="Resources\icons8-calculator-26.png" />
+    <None Include="Resources\mrvenus-and-mrsmars.png" />
+    <None Include="Resources\IconN.png" />
+    <None Include="Resources\IconM.png" />
+    <None Include="Resources\landing-font-regular %281%29.png" />
+    <None Include="Resources\Icon.png" />
+    <None Include="Resources\log file generating credentials.txt" />
+    <None Include="Resources\icons8-user-manual-20.png" />
+    <None Include="Resources\CC16.jpg" />
+    <None Include="Resources\CC15.jpg" />
+    <None Include="Resources\CC14.jpg" />
+    <None Include="Resources\CC13.jpg" />
+    <None Include="Resources\CC12.jpg" />
+    <None Include="Resources\CC11.jpg" />
+    <None Include="Resources\CC10.jpg" />
+    <None Include="Resources\CC9.jpg" />
+    <None Include="Resources\CC8.jpg" />
+    <None Include="Resources\CC7.jpg" />
+    <None Include="Resources\CC6.jpg" />
+    <None Include="Resources\CC5.jpg" />
+    <None Include="Resources\CC4.jpg" />
+    <None Include="Resources\CC3.jpg" />
+    <None Include="Resources\CC2.jpg" />
+    <None Include="Resources\CC1.jpg" />
+    <None Include="Resources\icons8-help-26.png" />
+    <None Include="Resources\Screenshot 2020-10-07 092409.png" />
+    <None Include="Resources\Screenshot 2020-10-07 0920191.png" />
+    <None Include="Resources\Screenshot 2020-10-07 092019.png" />
+    <None Include="Resources\C16.png" />
+    <None Include="Resources\C15.png" />
+    <None Include="Resources\C14.png" />
+    <None Include="Resources\C13.png" />
+    <None Include="Resources\C12.png" />
+    <None Include="Resources\C11.png" />
+    <None Include="Resources\C10.png" />
+    <None Include="Resources\C9.png" />
+    <None Include="Resources\C8.png" />
+    <None Include="Resources\C7.png" />
+    <None Include="Resources\C6.png" />
+    <None Include="Resources\C5.png" />
+    <None Include="Resources\C4.png" />
+    <None Include="Resources\C3.png" />
+    <None Include="Resources\C2.png" />
+    <None Include="Resources\C1.png" />
+    <None Include="Resources\C1.jpg" />
+    <None Include="Resources\Capture6.PNG" />
+    <None Include="Resources\Capture4.PNG" />
+    <None Include="Resources\Capture3.PNG" />
+    <None Include="Resources\Capture1.PNG" />
+    <None Include="Resources\Capture.PNG" />
+    <None Include="Resources\Capture5.PNG" />
+    <None Include="Resources\icons8-cannon-100.png" />
+    <None Include="Resources\icons8-cap-100.png" />
+    <None Include="Resources\icons8-car-100.png" />
+    <None Include="Resources\icons8-cargo-ship-100.png" />
+    <None Include="Resources\icons8-children-shoes-100.png" />
+    <None Include="Resources\icons8-dog-100.png" />
+    <None Include="Resources\icons8-trotting-horse-100.png" />
+    <None Include="Resources\icons8-mine-cart-100.png" />
+    <None Include="Resources\icons8-iron-100.png" />
+    <None Include="Resources\icons8-hat-100.png" />
+    <None Include="Resources\icons8-medium-icons-40.png" />
+    <None Include="Resources\icons8-file-85.png" />
+    <None Include="Resources\icons8-order-history-20.png" />
+    <None Include="Resources\icons8-show-password-20.png" />
+    <None Include="Resources\Dark.png" />
+    <None Include="Resources\Light1.png" />
+    <None Include="Resources\Wyink.jpg" />
+    <None Include="Resources\JioSavan.png" />
+    <None Include="Resources\Hungama.png" />
+    <None Include="Resources\Gana.png" />
+    <None Include="Resources\icons8-amazon-music-30.png" />
+    <None Include="Resources\icons8-settings-20.png" />
+    <None Include="Resources\Tick .wav" />
+    <None Include="Resources\icons8-prize-100.png" />
+    <None Include="Resources\icons8-question-mark-100.png" />
+    <None Include="Resources\icons8-treasure-chest-100.png" />
+    <None Include="Resources\Brown.png" />
+    <None Include="Resources\Pink.jpg" />
+    <None Include="Resources\Orange.png" />
+    <None Include="Resources\Red.png" />
+    <None Include="Resources\purple.jpg" />
+    <None Include="Resources\Green.png" />
+    <None Include="Resources\Skyblue.png" />
+    <None Include="Resources\Yellow.png" />
+    <None Include="Resources\icons8-rainbow-100.png" />
+    <None Include="Resources\icons8-streets-100.png" />
+    <None Include="Resources\icons8-train-100.png" />
+    <None Include="Resources\icons8-water-heater-100.png" />
+    <None Include="Resources\icons8-property-100.png" />
+    <None Include="Resources\monopoly man.png" />
+    <None Include="Resources\icons8-purchase-order-20.png" />
+    <None Include="Resources\icons8-google-play-music-30.png" />
+    <None Include="Resources\Alarm1.wav" />
+    <None Include="Resources\Welcome.wav" />
+    <None Include="Resources\Warning.wav" />
+    <None Include="Resources\Property.wav" />
+    <None Include="Resources\DiceRoll.wav" />
+    <None Include="Resources\butSubstraction.wav" />
+    <None Include="Resources\butAnother.wav" />
+    <None Include="Resources\butAddition.wav" />
+    <None Include="Resources\Alarm.wav" />
+    <None Include="Resources\icons8-bank-cards-202.png" />
+    <None Include="Resources\icons8-bank-cards-201.png" />
+    <None Include="Resources\icons8-about-20.png" />
+    <None Include="Resources\icons8-bank-cards-20.png" />
+    <None Include="Resources\Whitehall.jpg" />
+    <None Include="Resources\WhitechapelRoad.jpg" />
+    <None Include="Resources\WaterWorks.jpg" />
+    <None Include="Resources\VineStreet.jpg" />
+    <None Include="Resources\TrafalgarSquare.jpg" />
+    <None Include="Resources\TheAngel,Islington.jpg" />
+    <None Include="Resources\Strand.jpg" />
+    <None Include="Resources\RegentStreet.jpg" />
+    <None Include="Resources\Picadilly.jpg" />
+    <None Include="Resources\PentonvilleRoad.jpg" />
+    <None Include="Resources\ParkLane.jpg" />
+    <None Include="Resources\PallMall.jpg" />
+    <None Include="Resources\OxfordStreet.jpg" />
+    <None Include="Resources\OldKentRoad.jpg" />
+    <None Include="Resources\NorthumberlandAvenue.jpg" />
+    <None Include="Resources\Mayfair.jpg" />
+    <None Include="Resources\MaryleboneStation.jpg" />
+    <None Include="Resources\MarlboroughStreet.jpg" />
+    <None Include="Resources\LiverpoolStreetStation.jpg" />
+    <None Include="Resources\LeicesterSquare.jpg" />
+    <None Include="Resources\KingCrossStation.jpg" />
+    <None Include="Resources\FrenchchurchStreetStation.jpg" />
+    <None Include="Resources\FleetStreet.jpg" />
+    <None Include="Resources\EustonRoad.jpg" />
+    <None Include="Resources\ElectricCompany.jpg" />
+    <None Include="Resources\ConventoryStreet.jpg" />
+    <None Include="Resources\BowStreet.jpg" />
+    <None Include="Resources\BondStreet.jpg" />
+    <None Include="Resources\icons8-table-properties-20.png" />
+    <None Include="Resources\icons8_important_property_43_zdS_icon.ico" />
+    <None Include="Resources\icons8-database-30.png" />
+    <None Include="Resources\but Minimize 21.png" />
+    <None Include="Resources\Monopoly %28Welcome%29.png" />
+    <None Include="Resources\icons8-transaction-20.png" />
+    <None Include="Resources\icons8-todo-list-75.png" />
+    <None Include="Resources\icons8-tax-75.png" />
+    <None Include="Resources\icons8-rules-20.png" />
+    <None Include="Resources\icons8-refresh-30.png" />
+    <None Include="Resources\icons8-pay-wall-75.png" />
+    <None Include="Resources\icons8-more-than-15.png" />
+    <None Include="Resources\icons8-locked-door-75.png" />
+    <None Include="Resources\icons8-house-20.png" />
+    <None Include="Resources\icons8-hotel-star-20.png" />
+    <None Include="Resources\icons8-help-30.png" />
+    <None Include="Resources\icons8-google-photos-20.png" />
+    <None Include="Resources\icons8-go-80.png" />
+    <None Include="Resources\icons8-dice-20.png" />
+    <None Include="Resources\icons8-diamond-75.png" />
+    <None Include="Resources\icons8-debt-75.png" />
+    <None Include="Resources\icons8-button-20 %281%29.png" />
+    <None Include="Resources\icons8-bank-building-40.png" />
+    <None Include="Resources\icons8-back-arrow-80.png" />
+    <None Include="Resources\icons8-back-arrow-80 1.png" />
+    <None Include="Resources\icons8-add-20.png" />
+    <None Include="Resources\icons8-add-18.png" />
+    <None Include="Resources\icons8-add-15.png" />
+    <None Include="Resources\creative-equals-international-womens-day-logos-monopoly2_dezeen.gif" />
+    <None Include="Resources\butMinimized.png" />
+    <None Include="Resources\butMaximized.png" />
+    <None Include="Resources\butExit.png" />
+    <None Include="Resources\but Minimize 2.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\5.png" />
+    <None Include="Resources\4.png" />
+    <None Include="Resources\3.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\creative-equals-international-womens-day-logos-monopoly2_dezeen1.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
