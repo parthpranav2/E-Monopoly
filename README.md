@@ -11,4 +11,3 @@ Screens
 ![image](https://github.com/user-attachments/assets/d46b0ac7-3373-4831-96dc-c8e033010071)
 ![image](https://github.com/user-attachments/assets/9f912d84-b53a-4024-be4b-7604df6002dc)
 ![image](https://github.com/user-attachments/assets/3bb393fa-e483-48f3-8174-5d5eb8f4d147)
-![image](https://github.com/user-attachments/assets/05f691b2-09b2-4956-ba47-135b6d244bdc)
